@@ -68,11 +68,12 @@ h1 {
 }
 
 .signup {
-    padding: 5px 10px;
+    padding: 10px 20px;
     margin-top: 10px;
     background-color: #3882f6;
     color: #fff;
     border: none;
+    border-radius: 7px;
     margin-top: 10px;
 }
 
@@ -154,3 +155,41 @@ h1 {
     font-size: 24px;
 }
 
+/* CTA Section */
+.cta {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 75vw;
+    padding: 50px 100px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.left_cta h3 {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.left_cta p  {
+    font-style: italic;
+    margin-top: 7px;
+}
+
+.cta_button {
+    padding: 8px 40px;
+    background-color: #3882f6;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    align-self: flex-end;
+}
