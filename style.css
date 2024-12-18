@@ -18,8 +18,9 @@ ul {
 }
 
 h1 {
-    max-width: 250px;
     line-height: 1;
+    font-size: 48px;
+    color: #f9faf8;
 }
 
 p {
@@ -31,7 +32,7 @@ p {
 
 .hero {
     background-color: #1f2937;
-    height: 48vh;
+    height: 90vh;
     color: #fff;
     padding: 30px;
 }
@@ -39,6 +40,14 @@ p {
 .navbar {
     display: flex;
     justify-content: space-between;
+}
+
+.navbar h3 {
+    font-size: 24px;
+}
+
+.navbar p {
+    font-size: 18px;
 }
 
 .hero_content {
@@ -49,12 +58,16 @@ p {
 
 .navbar,
 .hero_content {
-    margin: 0 150px;
+    margin: 0 200px 0 100px;
 }
 
 .left_side {
     max-width: 500px;
     align-self: center;
+}
+
+.left_side p {
+    color: #CCCFD4;
 }
 
 .signup {
@@ -72,13 +85,49 @@ p {
 }
 
 .placeholder_img {
-    width: 350px;
-    height: 150px;
-    background-color: darkgray;
-    border-radius: 5px;
+    width: 550px;
+    height: 250px;
+    background-color: #6D747D;
+    border-radius: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* Info Section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.box {
+    height: 185px;
+    width: 185px;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+}
+
+.card p {
+    width: 185px;
+    text-align: center;
+    color: #4B5563;
+}
