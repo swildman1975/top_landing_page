@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    min-height: 100vh;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+h1 {
+    max-width: 250px;
+    line-height: 1;
+}
+
+p {
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+/* Hero Section */
+
+.hero {
+    background-color: #1f2937;
+    height: 48vh;
+    color: #fff;
+    padding: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navbar,
+.hero_content {
+    margin: 0 150px;
+}
+
+.left_side {
+    max-width: 500px;
+    align-self: center;
+}
+
+.signup {
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+}
+
+.right_side {
+    align-self: center;
+    
+}
+
+.placeholder_img {
+    width: 350px;
+    height: 150px;
+    background-color: darkgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Info Section */
